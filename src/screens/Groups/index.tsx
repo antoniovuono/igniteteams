@@ -1,11 +1,13 @@
 import React from "react";
 
-import { View, Text } from "react-native";
+import { Container, Title } from "./styles";
 
 export const Groups = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Groups</Text>
-    </View>
+    <Container
+      style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+    >
+      <Title>Groups</Title>
+    </Container>
   );
 };
