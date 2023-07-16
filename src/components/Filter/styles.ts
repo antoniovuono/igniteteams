@@ -26,5 +26,4 @@ export const Title = styled.Text`
         font-size: ${theme.FONT_SIZE.SM}px;
         color: ${theme.COLORS.WHITE};
    `};
-
 `;
