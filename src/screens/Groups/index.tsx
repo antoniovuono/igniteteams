@@ -15,7 +15,7 @@ export const Groups = () => {
   const { navigate } = useNavigation();
 
   const handleNewGroups = () => {
-    navigate("groups");
+    navigate("new");
   };
 
   return (
